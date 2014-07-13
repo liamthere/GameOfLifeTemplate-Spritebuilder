@@ -334,8 +334,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>46.494743347167969</real>
-													<real>26.568424224853516</real>
+													<real>41.494743347167969</real>
+													<real>72.56842041015625</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -372,7 +372,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>Population</string>
 													<false/>
 												</array>
 											</dict>
@@ -521,7 +521,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_populationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -541,8 +541,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>46.494743347167969</real>
-													<real>39.852638244628906</real>
+													<real>44.494743347167969</real>
+													<real>57.852638244628906</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -748,8 +748,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>44.834217071533203</real>
-													<real>58.118427276611328</real>
+													<real>42.834217071533203</real>
+													<real>41.118427276611328</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -786,7 +786,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>Generation</string>
 													<false/>
 												</array>
 											</dict>
@@ -935,7 +935,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_generationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -955,8 +955,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>46.494743347167969</real>
-													<real>73.063163757324219</real>
+													<real>45.494743347167969</real>
+													<real>27.063163757324219</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -969,8 +969,8 @@
 												<string>Point</string>
 												<key>value</key>
 												<array>
-													<real>0.5</real>
-													<real>0.5</real>
+													<real>0.52959281206130981</real>
+													<real>0.4970703125</real>
 												</array>
 											</dict>
 											<dict>
