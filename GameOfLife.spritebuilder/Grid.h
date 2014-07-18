@@ -14,5 +14,5 @@
 @property (nonatomic, assign) int generation;
 
 -(int)countNeighbors;
-
+-(void)updateCreatures;
 @end
