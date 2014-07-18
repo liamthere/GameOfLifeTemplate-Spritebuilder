@@ -11,5 +11,7 @@
 @interface MainScene : CCNode
 
 -(void)evolveStep;
+-(void)countNeighbors;
+-(void)updateCreatures;
 
 @end
