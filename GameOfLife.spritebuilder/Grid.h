@@ -15,4 +15,5 @@
 
 -(int)countNeighbors;
 -(void)updateCreatures;
+
 @end
