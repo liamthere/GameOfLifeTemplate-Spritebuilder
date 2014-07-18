@@ -10,7 +10,7 @@
 
 @interface MainScene : CCNode
 
--(void)evolveStep:{
+-(void)evolveStep:(){
     //update each Creature's neighbor count
     [self countNeighbors];
     
