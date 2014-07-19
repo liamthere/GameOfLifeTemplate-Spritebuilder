@@ -12,8 +12,8 @@
 @interface MainScene : CCNode
 @property (nonatomic,assign) Grid* grid;
 -(id)init;
--(void)evolveStep;
--(void)countNeighbors;
--(void)updateCreatures;
+-(void)play;
+-(void)pause;
+-(void)step;
 
 @end

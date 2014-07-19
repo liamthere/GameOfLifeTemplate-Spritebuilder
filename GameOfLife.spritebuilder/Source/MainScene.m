@@ -15,6 +15,7 @@
     CCLabelTTF *_generationLabel;
     CCLabelTTF *_populationLabel;
 }
+
 -(void)evolveStep {
     //update each Creature's neighbor count
     [self countNeighbors];
