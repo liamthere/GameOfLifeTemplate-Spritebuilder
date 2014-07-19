@@ -16,17 +16,6 @@
     CCLabelTTF *_populationLabel;
 }
 
--(void)evolveStep {
-    //update each Creature's neighbor count
-    [self countNeighbors];
-    
-    //update each Creature's state
-    [self updateCreatures];
-    
-    //update the generation so the label's text will display the correct generation
-    _generation++;
-};
-
 - (id)init
 {
     self = [super init];
