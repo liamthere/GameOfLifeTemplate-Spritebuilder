@@ -8,6 +8,7 @@
 
 #import "Grid.h"
 #import "Creature.h"
+#import "MainScene.h"
 
 // these are variables that cannot be changed
 static const int GRID_ROWS = 8;
@@ -23,6 +24,7 @@ static const int GRID_COLUMNS = 10;
 {
     [super onEnter];
     [self setupGrid];
+    MainScene* tmp;
 //    MainScene* tmp = (MainScene*) [[self parent]];
 //    printf( "Grid::init - self => [%p]; parent => [%p]\n", self, parent );
 //    parent.grid = self;
