@@ -23,9 +23,9 @@ static const int GRID_COLUMNS = 10;
 {
     [super onEnter];
     [self setupGrid];
-    MainScene* parent =  (MainScene*)[self parent];
-    printf( "Grid::init - self => [%p]; parent => [%p]\n", self, parent );
-    parent.grid = self;
+    MainScene* parent =  NULL;//(MainScene*)[self parent];
+//    printf( "Grid::init - self => [%p]; parent => [%p]\n", self, parent );
+//    parent.grid = self;
 
     // accept touches on the grid
     self.userInteractionEnabled = YES;
